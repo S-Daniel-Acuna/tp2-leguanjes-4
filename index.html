@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historial de Recorrido - TP N°2 Lenguaje IV</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1>Historial de Recorrido</h1>
+
+    <div id="map"></div>
+
+    <div class="botones">
+      <button id="btnIniciar">Iniciar Seguimiento</button>
+      <button id="btnDetener">Detener Seguimiento</button>
+      <button id="btnLimpiar">Limpiar Historial</button>
+    </div>
+
+    <p id="estado" class="estado"></p>
+
+    <h2>Historial de Posiciones</h2>
+    <ul id="listaHistorial" class="historial"></ul>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
